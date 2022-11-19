@@ -3279,6 +3279,11 @@ html::-webkit-scrollbar-track {
     width: 80%;
     margin: auto;
   }
+  .strengthsElement {
+    width: 100%;
+    justify-content: start;
+    height: max-content;
+  }
   .buyElement {
     width: 100%;
     justify-content: start;
