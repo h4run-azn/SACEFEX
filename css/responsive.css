@@ -236,8 +236,7 @@
     border-radius: 15px;
     box-shadow: rgb(0, 0, 0, 0.3) 5px 5px 15px;
   }
-  .social:hover h1 {
-  }
+ 
   .social:hover i {
     margin-top: 15px;
     width: 150px;
@@ -275,8 +274,7 @@
     min-height: 200px;
     display: none;
   }
-  .socialDesc h4 {
-  }
+ 
   .socialBtn {
     font-size: 1.5em;
     width: 200px;
