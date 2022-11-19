@@ -3126,7 +3126,8 @@ html::-webkit-scrollbar-track {
   margin-bottom: 5px;
 }
 .tokenomics {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -3201,5 +3202,17 @@ html::-webkit-scrollbar-track {
   }
   100% {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 992px) {
+  .tokenomics {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+    margin: auto;
   }
 }
